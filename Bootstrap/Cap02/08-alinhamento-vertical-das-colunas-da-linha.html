@@ -12,38 +12,22 @@
     >
     <style rel="stylesheet">
         [class ^= col] {border: 1px solid red}
+        [class ^= row] {border: 1px solid blue; height: 120px;}
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4">
-            <div class="col-md-2">
-                Card 1
+        <div class="row">
+            <div class="col align-self-start">
+                align-self-start (valor css inicial)
             </div>
-            <div class="col">
-                Card 2
+            <div class="col align-self-center">
+                align-self-center
             </div>
-            <div class="col">
-                Card 3
-            </div>
-            <div class="col">
-                Card 4
-            </div>
-            <div class="col">
-                Card 5
-            </div>
-            <div class="col">
-                Card 6
-            </div>
-            <div class="col">
-                Card 7
-            </div>
-            <div class="col">
-                Card 8
+            <div class="col align-self-end">
+                align-self-end
             </div>
         </div>
     </div>
-
-    
 </body>
 </html>

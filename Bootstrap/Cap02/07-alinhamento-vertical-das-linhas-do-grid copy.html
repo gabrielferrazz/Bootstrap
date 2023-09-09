@@ -12,62 +12,45 @@
     >
     <style rel="stylesheet">
         [class ^= col] {border: 1px solid red}
+        [class  ^=row] {border: 1px solid blue; height: 90px; margin-bottom: 20px;}
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4">
+        align-items-start
+        <div class="row align-items-start">
             <div class="col">
-                Card 1
+                coluna 1
             </div>
             <div class="col">
-                Card 2
+                coluna 2
             </div>
             <div class="col">
-                Card 3
-            </div>
-            <div class="col">
-                Card 4
-            </div>
-            <div class="col">
-                Card 5
-            </div>
-            <div class="col">
-                Card 6
-            </div>
-            <div class="col">
-                Card 7
-            </div>
-            <div class="col">
-                Card 8
+                coluna 3
             </div>
         </div>
-
-        <h3 class="mt-5">Gutters</h3>
-        <div class="row row-cols-sm-2 g-4">
+        align-items-center
+        <div class="row align-items-center">
             <div class="col">
-                <div> Card 1 </div>
+                coluna 1
             </div>
             <div class="col">
-                <div> Card 2 </div>
+                coluna 2
             </div>
             <div class="col">
-                <div> Card 3 </div>
+                coluna 3
+            </div>
+        </div>
+        align-items-end
+        <div class="row align-items-end">
+            <div class="col">
+                coluna 1
             </div>
             <div class="col">
-                <div> Card 4 </div>
+                coluna 2
             </div>
             <div class="col">
-                <div> Card 5 </div>
-            </div>
-            <div class="col">
-                <div> Card 6 </div>
-            </div>
-            <div class="col">
-                <div> Card 7 </div>
-            </div>
-            <div class="col">
-                <div> Card 8 </div>
+                coluna 3
             </div>
         </div>
     </div>
